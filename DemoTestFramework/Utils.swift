@@ -8,18 +8,18 @@
 import Foundation
 import UIKit
 
-public struct HelperFunction {
+internal struct Utils {
     
     public static func showLogs(key: String, value: String){
-        Utils.showLogs(key: key, value: value)
+        print("\(key): \(value)")
     }
     
     public static func getApplicationId() -> String {
-        return Utils.getApplicationId()
+        return Bundle.main.bundleIdentifier ?? "Unknown"
     }
     
     @MainActor
     public static func getDeviceModel() -> String {
-        return Utils.getDeviceModel()
+        return UIDevice.current.model
     }
 }

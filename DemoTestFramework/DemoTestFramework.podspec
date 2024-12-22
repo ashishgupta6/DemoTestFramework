@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "DemoTestFramework"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "DemoFramework provides essential tools for seamless app integration."
   spec.description  = "DemoFramework is a lightweight framework designed to enhance app functionality by providing intuitive tools and features for iOS development. It is built with flexibility, scalability, and ease of use in mind."
   spec.homepage     = "https://ashishgupta8051.github.io/portfolio"
