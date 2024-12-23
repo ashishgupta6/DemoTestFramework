@@ -5,8 +5,6 @@
 //  Created by Ashish Gupta on 04/12/24.
 //
 
-import UIKit
-
 public struct HelperFunction {
     
     public static func showLogs(key: String, value: String){
