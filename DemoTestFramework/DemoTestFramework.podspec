@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.author      = {'Ashish Gupta' => 'ashish.gupta@sign3labs.com'}
   spec.platform     = :ios, "13"
   spec.source       = { :http => 'https://sign3.jfrog.io/artifactory/intelligence-test-local/com/sign3/intelligence/test-intelligence/DemoTestFramework.xcframework.zip' }
-  spec.vendored_frameworks = 'DemoTestFramework.xcframework/**/*.framework'
+  spec.vendored_frameworks = 'DemoTestFramework.xcframework/**/*'
   spec.ios.deployment_target = '13.0'
   spec.swift_versions = "6.0.2"
 end
