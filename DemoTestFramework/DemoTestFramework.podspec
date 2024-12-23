@@ -7,9 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author      = {'Ashish Gupta' => 'ashish.gupta@sign3labs.com'}
   spec.platform     = :ios, "13"
-  spec.source = {
-   :http => "https://#{ENV['JFROG_USERNAME']}:#{ENV['JFROG_PASSWORD']}@sign3.jfrog.io/ui/native/intelligence-test-local/com/sign3/intelligence/test-intelligence/DemoTestFramework.xcframework.zip"
-  }
+  spec.source       = { :http => 'https://sign3.jfrog.io/ui/native/intelligence-test-local/com/sign3/intelligence/test-intelligence/DemoTestFramework.xcframework.zip' }
   spec.vendored_frameworks = 'DemoTestFramework.xcframework/**/*.framework'
   spec.ios.deployment_target = '13.0'
   spec.swift_versions = "6.0.2"
