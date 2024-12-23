@@ -5,14 +5,6 @@
 //  Created by Ashish Gupta on 23/12/24.
 //
 
-
-//
-//  HelperFunction.swift
-//  DemoFramework
-//
-//  Created by Ashish Gupta on 04/12/24.
-//
-
 import UIKit
 
 public struct DemoTest {
