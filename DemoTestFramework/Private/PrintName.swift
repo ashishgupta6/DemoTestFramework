@@ -7,9 +7,9 @@
 
 import UIKit
 
-struct PrintName {
+internal struct PrintName {
     
-    static func printName(key: String, value: String){
+    internal static func printName(key: String, value: String){
         print("Name: \(value)")
     }
 
