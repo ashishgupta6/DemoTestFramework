@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13"
   spec.source       = { :git => 'https://github.com/ashishgupta6/DemoTestFramework.git', :tag => spec.version }
   spec.source_files = "DemoTestFramework/**/*.swift"
-  spec.source_files = "DemoTestFramework/Private/**/*"
+  spec.exclude_files = "DemoTestFramework/Private/**/*"
   spec.ios.deployment_target = '13.0'
   spec.swift_versions = "6.0.2"
 end
