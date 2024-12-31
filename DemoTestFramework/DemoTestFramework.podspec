@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'DemoFramework provides essential tools for seamless app integration.'
   spec.description  = 'DemoFramework is a lightweight framework designed to enhance app functionality by providing intuitive tools and features for iOS development. It is built with flexibility, scalability, and ease of use in mind.'
   spec.homepage     = 'https://ashishgupta8051.github.io/portfolio'
-  spec.license = { :type => 'MIT', :file => 'LICENSE' }
+  spec.license = { :type => 'MIT', :file => 'LICENSE.txt'}
   spec.author      = {'Ashish Gupta' => 'ashish.gupta@sign3labs.com'}
   spec.platform     = :ios, "13"
   spec.source       = { :http => 'https://sign3.jfrog.io/artifactory/intelligence-test-local/com/sign3/intelligence/test-intelligence/DemoTestFramework.xcframework.zip' }
