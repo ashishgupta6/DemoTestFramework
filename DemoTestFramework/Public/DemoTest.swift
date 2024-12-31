@@ -7,7 +7,7 @@
 
 public struct DemoTest {
     
-    public static func printYourName(key: String, value: String){
-        PrintName.printName(key: key, value: value)
+    public static func printYourName(name: String){
+        PrintName.printName(name: name)
     }
 }

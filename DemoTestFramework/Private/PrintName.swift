@@ -8,8 +8,8 @@
 
 internal struct PrintName {
     
-    static func printName(key: String, value: String){
-        print("\(key): \(value)")
+    static func printName(name: String){
+        print(name)
     }
 
 }
