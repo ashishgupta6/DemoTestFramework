@@ -9,7 +9,7 @@
 internal struct PrintName {
     
     static func printName(key: String, value: String){
-        print("Name: \(value)")
+        print("\(key): \(value)")
     }
 
 }

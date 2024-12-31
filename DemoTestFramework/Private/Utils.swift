@@ -9,10 +9,6 @@ import UIKit
 
 internal struct Utils {
     
-    static func showLogs(key: String, value: String){
-        print("\(key): \(value)")
-    }
-    
     static func getApplicationId() -> String {
         return Bundle.main.bundleIdentifier ?? "Unknown"
     }
